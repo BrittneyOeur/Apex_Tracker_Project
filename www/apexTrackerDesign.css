@@ -1,0 +1,83 @@
+body {
+  color: black;
+  background-color: #f2ede1;
+  background-image: url("wraith_background_op20.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3 {
+  color: red;
+}
+
+#panel {
+  opacity: 0.70;
+  transition: opacity 0.5s ease;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#panel:hover {;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#panel_2 {
+  opacity: 0.70;
+  transition: opacity 0.5s ease;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#panel_2:hover {;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 50px;
+}
+
+.life_title {
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 50px;
+}
+
+.text_credit {
+  text-align: right;
+}
+
+.img_holder .background_img img{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  opacity: 0.2;
+}
+
+.text-box {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 9%;
+  padding-left: 20%;
+  transition: opacity 1s ease;
+  justify-content: center;
+}
+
+#custom-theme:navbar-default {
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('RobotoMono-VariableFont_wght.ttf');
+}
