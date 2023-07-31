@@ -52,7 +52,8 @@ lifetime_page <- tabPanel("Lifetime",
     
     div(
       class = "life_title",
-      h1("Lifetime Stats")
+      h1("Lifetime Stats"),
+      p("(Under Construction)")
     ),
     
     #div(
@@ -79,11 +80,26 @@ lifetime_page <- tabPanel("Lifetime",
   )
 )
 
+github_link <- tabPanel("Github",
+  fluidPage(
+    tags$head(
+      includeCSS("www/apexTrackerDesign.css")
+    ),
+    
+    div(
+      class = "git_link",
+      h1("GitHub"),
+      p("GitHub repository: ", HTML("<a href ='https://github.com/BrittneyOeur/Apex_Tracker_Project'> GitHub</a>"))
+    )
+  )
+)
+
 ui <- navbarPage(
   theme = "custom-theme",
   title = "Apex Legends Tracker",
   intro_page,
-  lifetime_page
+  lifetime_page,
+  github_link
 )
 
 server <- function(input, output) {

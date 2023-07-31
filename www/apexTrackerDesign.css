@@ -10,6 +10,13 @@ h3 {
   color: red;
 }
 
+#title {
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 50px;
+}
+
 #panel {
   opacity: 0.70;
   transition: opacity 0.5s ease;
@@ -33,14 +40,14 @@ h3 {
   justify-content: center;
 }
 
-#panel_2:hover {;
+#panel_2:hover {
   transition: opacity 0.5s ease;
   opacity: 1;
   display: flex;
   justify-content: center;
 }
 
-#title {
+.git_link {
   color: black;
   text-align: center;
   font-family: 'Roboto', sans-serif;
